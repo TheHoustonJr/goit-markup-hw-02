@@ -1,0 +1,21 @@
+.social-links .link:hover,
+.social-links .link:focus {
+  color: #2196f3;
+}
+
+.buttons .button:hover,
+.buttons .button:focus {
+  background: #2196f3;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  color: #000000;
+}
+
+.button {
+  cursor: pointer;
+}
