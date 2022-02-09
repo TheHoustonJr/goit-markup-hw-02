@@ -1,21 +1,45 @@
+.social-links .link {
+  color: #000000;
+}
+
 .social-links .link:hover,
 .social-links .link:focus {
   color: #2196f3;
 }
 
-.buttons .button:hover,
-.buttons .button:focus {
+.contacts .contact {
+  color: #757575;
+}
+
+.contacts .contact:hover,
+.contacts .contact:focus {
+  color: #2196f3;
+}
+
+.logo .log {
+  color: #000000;
+}
+
+.logo {
+  color: #2196f3;
+}
+
+.button:hover {
   background: #2196f3;
+}
+
+.button {
+  cursor: pointer;
 }
 
 body {
   font-family: Roboto, sans-serif;
 }
 
-body {
-  color: #000000;
+a {
+  text-decoration: none;
 }
 
-.button {
-  cursor: pointer;
+li {
+  list-style-type: none;
 }
