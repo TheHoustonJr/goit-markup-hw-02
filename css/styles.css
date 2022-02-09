@@ -88,7 +88,7 @@ li {
   background-color: #2f303a;
 }
 
-.header.logo {
+.header .logo {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -154,6 +154,12 @@ li {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
+}
+
+.footer .logo {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .footer .map {
