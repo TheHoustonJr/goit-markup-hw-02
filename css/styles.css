@@ -16,6 +16,16 @@
   color: #2196f3;
 }
 
+.footer .map:hover,
+.footer .map:focus {
+  color: #2196f3;
+}
+
+.footer .info:hover,
+.footer .info:focus {
+  color: #2196f3;
+}
+
 .logo .log {
   color: #000000;
 }
@@ -24,8 +34,33 @@
   color: #2196f3;
 }
 
+.logo .studio {
+  color: #ffffff;
+}
+
 .button:hover {
   background: #2196f3;
+}
+
+.button-main {
+  color: #ffffff;
+  background: #2196f3;
+}
+
+.button-main {
+  cursor: pointer;
+}
+
+.header-main {
+  color: #ffffff;
+}
+
+.map {
+  color: #ffffff;
+}
+
+.info {
+  color: #ffffff99;
 }
 
 .button {
@@ -33,6 +68,7 @@
 }
 
 body {
+  color: #212121;
   font-family: Roboto, sans-serif;
 }
 
@@ -42,4 +78,113 @@ a {
 
 li {
   list-style-type: none;
+}
+
+.hero {
+  background-color: #2f303a;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.header.logo {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.header .social-links {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.header .contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.hero .header-main {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+
+.hero .button-main {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.83;
+}
+
+.paragraph .capital {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.paragraph .description {
+  color: #757575;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.gallery {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+}
+
+.teams .team-main {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+}
+
+.teams .team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.teams .designer {
+  color: #757575;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.footer .map {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer .info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.portfolio .buttons {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.images-portfolio .images {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.images-portfolio .description {
+  color: #757575;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
 }
