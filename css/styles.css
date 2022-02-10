@@ -1,6 +1,6 @@
 :root {
-  --main-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", sans-serif;
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
 
   --main-clr: #000000;
   --blue-clr: #2196f3;
@@ -24,7 +24,7 @@ a {
 }
 
 Body {
-  font-family: var(--main-font);
+  font-faly: var(--main-font);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -48,7 +48,6 @@ Body {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.42;
-
   letter-spacing: 0.03em;
 }
 
@@ -58,13 +57,20 @@ Body {
 }
 
 .header-link {
+  color: var(--main-clr);
+}
+
+.header-list .header-item {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
 
-  color: #000000;
+.header-mail,
+.header-phone {
+  color: var(--secondary-clr);
 }
 
 .header-mail:hover,
@@ -74,15 +80,12 @@ Body {
   color: var(--blue-clr);
 }
 
-.header-mail,
-.header-phone {
+.header-info {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
-  color: var(--secondary-clr);
 }
 
 /* Баннер */
