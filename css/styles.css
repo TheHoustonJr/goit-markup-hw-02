@@ -90,6 +90,10 @@ Body {
 
 /* Баннер */
 .hero {
+  background-color: var(--background-clr);
+}
+
+.hero-main {
   font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
@@ -97,7 +101,6 @@ Body {
   letter-spacing: 0.06em;
 
   color: var(--light-clr);
-  background-color: var(--background-clr);
 }
 
 .hero-btn {
@@ -204,7 +207,6 @@ Body {
 .footer-map {
   font-family: var(--main-font);
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -216,7 +218,6 @@ Body {
 .footer-phone {
   font-family: var(--main-font);
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
