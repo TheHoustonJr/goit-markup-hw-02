@@ -50,13 +50,17 @@ body {
   letter-spacing: 0.03em;
 }
 
-.header-link:hover,
-.header-link:focus {
+.header-link {
+  color: var(--main-clr);
+}
+
+.header-link.current {
   color: var(--blue-clr);
 }
 
-.header-link {
-  color: var(--main-clr);
+.header-link:hover,
+.header-link:focus {
+  color: var(--blue-clr);
 }
 
 .header-list .header-item {
